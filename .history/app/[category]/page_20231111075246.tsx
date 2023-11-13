@@ -22,11 +22,10 @@ async function page({params}: {params: {category: string}}) {
     console.log(datas)
   return (
     <div>
-        
-         <div className='grid grid-cols-1 p-4 max-w-2xl mx-auto sm:max-w-3xl lg:max-w-5xl bg-purple-300     gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid'>
+         <div className='grid grid-cols-1 p-4 max-w-2xl mx-auto sm:max-w-3xl lg:max-w-5xl bg-purple-100      gap-4 sm:grid-cols-2 md:grid-cols-3 lg:grid'>
           {datas.map((p ) => (
-            <div key={p._id}  className='flex border-4 transform  duration-75   hover:shadow-purple-700 rounded-lg p-3  flex-col' >
-              
+            <div key={p._id}  className='flex border-4 transform  duration-75  hover:ease-out hover:shadow-lg rounded-lg p-3  flex-col' >
+              <h1 className="items-center animate-pulse p-2 justify-center font-extrabold text-2xl text-blue-700 text-center">{p.category}</h1>
               <div >
                 <Image
                 src={p.images}
