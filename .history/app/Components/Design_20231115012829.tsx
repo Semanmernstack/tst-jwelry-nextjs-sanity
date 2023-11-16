@@ -32,13 +32,13 @@ function Design() {
             {links.map((l, index) => (
                 <div key={index} className='flex rounded-lg hover:shadow-2xl w-full md:w-1/2 text-center items-center justify-center  border shadow-md p-2 '>
                     {pathname === l.href ? (
-                        <Link href={l.href} className='text-sm sm:text-lg text-red-500 font-semibold animate-pulse'>
+                        <Link href={l.href} className='text-sm sm:text-lg text-red-500 font-semibold'>
                             {l.name}
                         </Link>
 
                     ):(
                         <Link href= {l.href }
-                        className="text-sm sm:text-lg font-semibold text-gray-800 transition duration-100 ease-in-out animate-pulse "
+                        className="text-sm sm:text-lg font-semibold text-gray-800 transition duration-100 ease-in-out hover:animate-pulse "
                         >
                             {l.name}
                         </Link>

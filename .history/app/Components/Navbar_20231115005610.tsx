@@ -1,27 +1,21 @@
 import Link from 'next/link'
 import { SocialIcon } from 'react-social-icons'
 import Design from './Design'
-import Image from 'next/image'
-
-
 
 function Navbar() {
   return (
-    <div className='flex flex-col '>
+    <div className='flex flex-col'>
       <div className='flex flex-col '>
           <h1 className='item-center   text-center text-white justify-center text-sm shadow-lg p-2 w-full bg-green-500'>Free delivery for over N100000 products</h1>
-          <div className='flex h-[122px]  items-center bg-slate-950 animate-accordion-down bg:from-slate-800 bg:via-black bg:to-zinc-900 justify-between sm:justify-around  p-2 sm:p-4     hover:shadow-2xl  '>
+          <div className='flex  items-center animate-accordion-down  justify-between brightness-100 p-4 shadow-lg shadow-purple-700 bg-purple-400   hover:shadow-2xl  h-24'>
             
               <Link href={'/'} className='flex  brightness-75  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 duration-300    '>
-                 <Image
-                  src='/tstlogo.jpg'
-                  alt='logoo'
-                  width={120}
-                  height={80}
-                  className=' object-contain rounded-md brightness-15  '
-                 />
+                  <img src={'/IMG-20231113-WA002.jpg'} alt="logo"
+                    className='h-24 w-24'
+
+                   />
               </Link>
-              <h1 className='italic text-xs sm:text-lg text-white brightness-15  '>Home of luxirous jwelery</h1>
+              <h1 className='italic '>Home of luxirous jwelery</h1>
             
             
           </div>

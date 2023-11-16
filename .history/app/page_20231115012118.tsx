@@ -3,7 +3,6 @@ import Hero from './Components/Hero'
 import Design from './Components/Design'
 import Product from './Components/Product'
 import Testi from './Components/Testi'
-import Newslet from './Components/Newslet'
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
      
       <Product/>
       <Testi/>
-      <Newslet/>
 
 
       
