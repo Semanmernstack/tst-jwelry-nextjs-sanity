@@ -57,12 +57,6 @@ async function Product() {
             </div>
           ))}
         </div>
-        <Link className='flex p-4 items-center hover:text-xl cursor-pointer text-blue-600 gap-2' href={'/Latest'}>
-        <h1 className='flex font-semibold'>See More Products</h1>
-        <Icon/>
-        
-        </Link>
-
     </div>
   )
 }

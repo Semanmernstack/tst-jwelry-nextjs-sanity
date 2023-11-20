@@ -35,7 +35,7 @@ async function page({params}: {params: {slug: string}}) {
         <div>
             <ImageComp images={datas?.images} />
         </div>
-        <div className='space-y-2 bg-transparent animate-pulse p-2'>
+        <div className='space-y-2 text-neutral-700 animate-pulse p-2'>
             <p className='text-center text-lg sm:text-xl justify-center font-extrabold text-gray-600 p-1'>{datas?.name}</p>
             <h2 className=' italic font-normal'>{datas?.desc}</h2>
         </div>

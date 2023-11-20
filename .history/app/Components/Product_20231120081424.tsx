@@ -3,7 +3,6 @@ import { client } from '../lib/sanity'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Pro } from '../type'
-import Icon from './Icon'
 
 
 const getProduct = async()=> {
@@ -48,21 +47,11 @@ async function Product() {
                 <h1 className='font-bold tracking-wider text-gray-400' >{p.name}</h1>
                 <h1 className='font-bold text-sm transition ease-in-out delay-150  hover:translate-y-1 hover:scale-95  duration-300    text-gray-800'>View Product </h1>
               </Link>
-
-              <Icon/>
-
-
               
 
             </div>
           ))}
         </div>
-        <Link className='flex p-4 items-center hover:text-xl cursor-pointer text-blue-600 gap-2' href={'/Latest'}>
-        <h1 className='flex font-semibold'>See More Products</h1>
-        <Icon/>
-        
-        </Link>
-
     </div>
   )
 }
