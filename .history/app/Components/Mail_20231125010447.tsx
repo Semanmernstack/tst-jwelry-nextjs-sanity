@@ -47,7 +47,7 @@ function Mail() {
                     className="outline-none flex-1 w-[200px] sm:w-[300px] md:w-[400px]  lg:w-[800px] text-white bg-red-700 border-2 h-10 md:h-8   p-2 rounded-lg  border-none from-fuchsia-400 "
 
                  />
-                 <button className="text-xs  text-center justify-center flex cursor-pointer h-9   text-white bg-zinc-500 p-2  sm:text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  duration-300  rounded-xl md:rounded-2xl " type='submit' disabled={!input}    >
+                 <button className="text-xs  text-center justify-center flex cursor-pointer h-9   text-white bg-zinc-50 p-2  sm:text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  duration-300  rounded-xl md:rounded-2xl " type='submit' disabled={!input}    >
                     Subscribe
                  </button>
             </div>
