@@ -11,17 +11,15 @@ export default function Home() {
   return (
     <div className="flex flex-col p-2">
       <Head>
-        <title>beautiful jewelery set in lagos - Big Discounts | tst-jewelry </title>
-        
+        <title>tst-jewelry</title>
         <meta
           name='description'
-          content='best jewelries in Lagos. Make contact today'
-          key=" lagos"
+          content='best custome jewelries in lagos'
 
         />
         <meta
-          name='tst-jewelry, lagos jewelry nigeria jewelry'
-          content='https://tst-jewelry.com, WOMEN, MEN, LATEST PRODUCT'
+          name='ecommerce'
+          content='https://tst-jewelry.com'
 
         />
         <meta

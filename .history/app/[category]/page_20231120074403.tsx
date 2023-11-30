@@ -3,7 +3,6 @@ import { client } from '../lib/sanity'
 import { Cat } from '../type'
 import Image from 'next/image'
 import Link from 'next/link'
-import Icon from '../Components/Icon'
 async function getCat(category: string) {
     const query = `*[_type == "product" && category->name == "${category}"]{
       _id,
@@ -46,13 +45,8 @@ async function page({params}: {params: {category: string}}) {
               
               <Link  className="text-center items-center shadow-lg p-2 justify-center"    href={`/product/${p.slug}`}> 
                 <h1 className='font-bold tracking-wider text-gray-400' >{p.name}</h1>
-                
-                <div className='text-center text-blue-500 items-center justify-center p-2 flex flex-col'>
-                <h2 className='font-bold' >View Product</h2>
-                <Icon/>
-              </div>
+                <h1 className='font-extrabold text-blue-800'>N {p.price}</h1>
               </Link>
-              
               
 
             </div>

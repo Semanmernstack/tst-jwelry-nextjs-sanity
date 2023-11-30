@@ -37,7 +37,7 @@ function Navbar() {
                   alt='logoo'
                   width={100}
                   height={70}
-                  className='  object-contain rounded-md brightness-15  '
+                  className=' w-full object-contain rounded-md brightness-15  '
                  />
               </Link>
               <div className='flex flex-col items-center'>

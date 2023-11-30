@@ -23,7 +23,7 @@ function Footer() {
         
                      
     </div>
-    <div className='flex p-8 text-center items-center justify-center space-x-2'>
+    <div className='flex p-8 text-center justify-center space-x-2'>
         <div className='flex space-x-1 text-2xl font-extrabold font-mono italic'>
             <h2 className='text-red-500'>Powered</h2>
             <h2 className='text-blue-500'>by</h2>

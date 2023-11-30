@@ -25,7 +25,7 @@ async function page({params}: {params: {slug: string}}) {
     const datas: ProId = await getId(params.slug)
     console.log(datas)
   return (
-    <div className='flex p-3 flex-col max-w-2xl mx-auto md:max-w-5xl h-full overflow-hidden   transition ease-in delay-150  hover:-translate-y-1  duration-300   '>
+    <div className='flex p-3 flex-col max-w-2xl mx-auto md:max-w-5xl h-full overflow-hidden   transition ease-in delay-150  hover:-translate-y-1 hover:scale-110 duration-300   '>
         <div className='flex flex-col shadow-sm  text-center items-center justify-center'>
             <h2 className='text-2xl font-extrabold font-serif'>Categories</h2>
             <h1 className='text-xl italic font-bold text-gray-800'>{datas?.category}</h1>
@@ -41,7 +41,7 @@ async function page({params}: {params: {slug: string}}) {
         </div>
         <div className='flex  items-center justify-around sm:justify-between text-white bg-gradient-to-r from-green-400 via-green-500 to-green-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-green-300 dark:focus:ring-green-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2 mb-2  '>
            
-            <p className='font-extrabold text-xl sm:text-2xl text-purple-900'>Contact tst-jewelry</p>
+            <p className='font-extrabold text-xl sm:text-2xl text-purple-900'>N {datas?.price}</p>
             <div className='flex flex-col shadow-inner gap-1 items-center'>
                 <h1 className='text-xs sm:text-xl lg:text-2xl'>Buy Now
                 <SocialIcon className="  w-8 h-8 animate-bounce " network='whatsapp' url="https://wa.me/2349068395803" />

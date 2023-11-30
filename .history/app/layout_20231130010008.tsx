@@ -7,8 +7,8 @@ import Footer from './Components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'tst-jewelry.com, Latest jewelry set for your party | OWANBE | CLASSIC | WATCHES',
-  description: 'your best plug when it comes to luxrious jewelries',
+  title: 'tst-jewelry',
+  description: 'e-commerce',
 }
 
 export default function RootLayout({

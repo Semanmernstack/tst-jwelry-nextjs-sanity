@@ -47,12 +47,12 @@ async function page({params}: {params: {category: string}}) {
               <Link  className="text-center items-center shadow-lg p-2 justify-center"    href={`/product/${p.slug}`}> 
                 <h1 className='font-bold tracking-wider text-gray-400' >{p.name}</h1>
                 
-                <div className='text-center text-blue-500 items-center justify-center p-2 flex flex-col'>
-                <h2 className='font-bold' >View Product</h2>
+                
+              </Link>
+              <div className='text-center items-center justify-center flex flex-col'>
+                <h2>View Product</h2>
                 <Icon/>
               </div>
-              </Link>
-              
               
 
             </div>

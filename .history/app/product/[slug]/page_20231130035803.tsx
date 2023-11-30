@@ -25,7 +25,7 @@ async function page({params}: {params: {slug: string}}) {
     const datas: ProId = await getId(params.slug)
     console.log(datas)
   return (
-    <div className='flex p-3 flex-col max-w-2xl mx-auto md:max-w-5xl h-full overflow-hidden   transition ease-in delay-150  hover:-translate-y-1  duration-300   '>
+    <div className='flex p-3 flex-col max-w-2xl mx-auto md:max-w-5xl h-full overflow-hidden   transition ease-in delay-150  hover:-translate-y-1 hover:scale-110 duration-300   '>
         <div className='flex flex-col shadow-sm  text-center items-center justify-center'>
             <h2 className='text-2xl font-extrabold font-serif'>Categories</h2>
             <h1 className='text-xl italic font-bold text-gray-800'>{datas?.category}</h1>

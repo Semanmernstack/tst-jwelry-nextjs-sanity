@@ -11,8 +11,8 @@ export default function Home() {
   return (
     <div className="flex flex-col p-2">
       <Head>
-        <title>beautiful jewelery set in lagos - Big Discounts | tst-jewelry </title>
-        
+        <title>beautiful jeweleryset in lagos - Big Discounts | tst-jewelry </title>
+        <meta charSet= "UFT-8" />
         <meta
           name='description'
           content='best jewelries in Lagos. Make contact today'

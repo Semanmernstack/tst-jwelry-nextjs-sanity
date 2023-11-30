@@ -2,31 +2,12 @@ import Link from 'next/link'
 import { SocialIcon } from 'react-social-icons'
 import Design from './Design'
 import Image from 'next/image'
-import Head from 'next/head'
 
 
 
 function Navbar() {
   return (
     <div className='flex flex-col '>
-      <Head>
-      <meta
-          name='website'
-          content='https://tst-jewelry.com'
-
-        />
-         <meta
-          name='viewport'
-          content='initial-scale=1.0, width=device-width'
-
-        />
-        <meta
-          name='ecommerce'
-          content='latest jewelry, jewelry around lagos, owmanbe, lagos party, tst-jewelry'
-
-        />
-
-      </Head>
       <div className='flex flex-col '>
           <h1 className='item-center   text-center text-white justify-center text-sm shadow-lg p-2 w-full bg-green-500'>Free delivery for over N100000 products</h1>
           <div className='flex h-[100px] sm:[130px]  items-center bg-purple-950 animate-accordion-down bg:from-slate-800 bg:via-black bg:to-zinc-900 justify-between  p-2 sm:p-4     hover:shadow-2xl  '>
@@ -37,7 +18,7 @@ function Navbar() {
                   alt='logoo'
                   width={100}
                   height={70}
-                  className='  object-contain rounded-md brightness-15  '
+                  className=' object-contain rounded-md brightness-15  '
                  />
               </Link>
               <div className='flex flex-col items-center'>
