@@ -33,24 +33,24 @@ const settings = {
 
         <Carousel {...settings}>
                 <div>
-                    <img className='w-full object-cover h-[60%]' src="/slideone.png" alt='picone' />
+                    <img className='w-full object-cover h-[70%]' src="/slideone.png" alt='picone' />
                     
                 </div>
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidefour.png" alt='pictwo' />
+                    <img className='w-full object-cover  h-[70%]' src="/slidefour.png" alt='pictwo' />
                     
                 </div>
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidethree.png" alt='picthree' />
+                    <img className='w-full object-cover  h-[70%]' src="/slidethree.png" alt='picthree' />
                   
                 </div>
                 
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidefive.png" alt='picfoo' />
+                    <img className='w-full object-cover  h-[70%]' src="/slidefive.png" alt='picfoo' />
                     
                 </div>
                 <div>
-                    <img className='full object-cover  h-[60%]' src="/slidetwo.png" alt='picfiv' />
+                    <img className='full object-cover  h-[70%]' src="/slidetwo.png" alt='picfiv' />
                    
                 </div>
             </Carousel> 

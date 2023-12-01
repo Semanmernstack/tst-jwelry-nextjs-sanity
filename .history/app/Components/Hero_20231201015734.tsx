@@ -5,10 +5,9 @@ import React from 'react'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
-
 const settings = {
     showArrows: false,
-    interval: 2000,
+    interval: 2500,
     dynamicHeight: false,
     stopOnHover: false,
     infiniteLoop: true,
@@ -29,32 +28,30 @@ const settings = {
     
   return (
     
-    <div> 
+       
 
-        <Carousel {...settings}>
+        <Carousel className='w-full ' {...settings}>
                 <div>
-                    <img className='w-full object-cover h-[60%]' src="/slideone.png" alt='picone' />
+                    <img src="slideone.png" />
                     
                 </div>
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidefour.png" alt='pictwo' />
+                    <img src="slidefour.png" />
                     
                 </div>
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidethree.png" alt='picthree' />
+                    <img src="slidethree.png" />
                   
                 </div>
-                
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidefive.png" alt='picfoo' />
+                    <img src="slidefive.png" />
                     
                 </div>
                 <div>
-                    <img className='full object-cover  h-[60%]' src="/slidetwo.png" alt='picfiv' />
+                    <img src="slidetwo.png" />
                    
                 </div>
             </Carousel> 
-        </div>
 
 
         

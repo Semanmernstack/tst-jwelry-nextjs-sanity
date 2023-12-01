@@ -8,7 +8,7 @@ import { Carousel } from 'react-responsive-carousel';
 
 const settings = {
     showArrows: false,
-    interval: 2000,
+    interval: 2500,
     dynamicHeight: false,
     stopOnHover: false,
     infiniteLoop: true,
@@ -31,26 +31,26 @@ const settings = {
     
     <div> 
 
-        <Carousel {...settings}>
+        <Carousel className='w-full  ' {...settings}>
                 <div>
-                    <img className='w-full object-cover h-[60%]' src="/slideone.png" alt='picone' />
+                    <img className='w-full' src="/slideone.png" alt='picone' />
                     
                 </div>
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidefour.png" alt='pictwo' />
+                    <img className='w-full' src="/slidefour.png" alt='pictwo' />
                     
                 </div>
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidethree.png" alt='picthree' />
+                    <img className='w-full' src="/slidethree.png" alt='picthree' />
                   
                 </div>
                 
                 <div>
-                    <img className='w-full object-cover  h-[60%]' src="/slidefive.png" alt='picfoo' />
+                    <img className='w-full' src="/slidefive.png" alt='picfoo' />
                     
                 </div>
                 <div>
-                    <img className='full object-cover  h-[60%]' src="/slidetwo.png" alt='picfiv' />
+                    <img className='full' src="/slidetwo.png" alt='picfiv' />
                    
                 </div>
             </Carousel> 
