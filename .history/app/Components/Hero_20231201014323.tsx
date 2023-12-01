@@ -30,7 +30,7 @@ const settings = {
     <div className=' '>
        
 
-        <Carousel className='w-full h[-50%]' {...settings}>
+        <Carousel {...settings}>
                 <div>
                     <img src="slideone.png" />
                     

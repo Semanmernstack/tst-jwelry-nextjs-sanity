@@ -27,10 +27,10 @@ const settings = {
     
     
   return (
-    <div className=' '>
+    <div className='w-full h-[80%] '>
        
 
-        <Carousel className='w-full h[-50%]' {...settings}>
+        <Carousel {...settings}>
                 <div>
                     <img src="slideone.png" />
                     

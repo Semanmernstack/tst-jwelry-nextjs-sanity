@@ -1,13 +1,13 @@
-
+"use client"
 import React from 'react'
 
-
+import Image from 'next/image'
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 const settings = {
     showArrows: false,
-    interval: 2500,
+    interval: 3500,
     dynamicHeight: false,
     stopOnHover: false,
     infiniteLoop: true,
@@ -27,10 +27,10 @@ const settings = {
     
     
   return (
-    <div className=' '>
+    <div className='w-full h-[80%] '>
        
 
-        <Carousel className='w-full h[-50%]' {...settings}>
+        <Carousel {...settings}>
                 <div>
                     <img src="slideone.png" />
                     
