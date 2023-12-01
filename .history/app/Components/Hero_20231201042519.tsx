@@ -1,11 +1,17 @@
 
 import React from 'react'
+import one from "../../public/one.png"
+import two from "../../public/two.png"
+import three from "../../public/three.png"
+import four from "../../public/four.png"
+import five from "../../public/five.png"
 
 
 
 
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import Image from 'next/image';
 
 
 const settings = {
