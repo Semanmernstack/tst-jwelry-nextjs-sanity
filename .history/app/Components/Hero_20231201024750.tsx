@@ -1,10 +1,10 @@
 
 import React from 'react'
-import slidefive from "../../public/slidefive.png"
-import slideone from "../../public/slideone.png"
-import slidetwo from "../../public/slidetwo.png"
-import slidethree from "../../public/slidethree.png"
-import slidefour from "../../public/slidefour.png"
+import slidefive from "../public/slidefive.png"
+import slideone from "../public/slideone.png"
+import slidetwo from "../public/slidetwo.png"
+import slidethree from "../public/slidethree.png"
+import slidefour from "../public/slidefour.png"
 
 
 
