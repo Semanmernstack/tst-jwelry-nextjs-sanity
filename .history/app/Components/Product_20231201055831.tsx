@@ -1,5 +1,5 @@
 import React from 'react'
-import { client, urlFor } from '../lib/sanity'
+import { client } from '../lib/sanity'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Pro } from '../type'
@@ -35,14 +35,13 @@ async function Product() {
             <div className='flex space-y-2 border-4  items-center justify-center hover:ease-out  hover:bg-purple-200 rounded-lg p-3  flex-col  transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-95  duration-300   ' key={p._id}>
               
               <div >
-                
-                <img
-                src={urlFor(p.images).width(300).height(300).url()}
-                alt='test image'
-                className='object-cover'
-             
-            />
-              
+                <Image
+                src={p.images}
+                alt="pic"
+                width={300}
+                height={300}
+                className='flex items-center justify-center object-cover'
+                />
               </div >
               
               <Link className="text-center items-center  cursor-pointer p-2 justify-center"    href={`/product/${p.slug}`}> 

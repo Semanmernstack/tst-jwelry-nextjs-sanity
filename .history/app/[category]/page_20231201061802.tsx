@@ -31,7 +31,7 @@ async function page({params}: {params: {category: string}}) {
               <div >
                 {p.images && 
 
-                    <img
+                    <Image
                     src={urlFor(p.images).width(200).height(200).url()}
                     alt="pic"
                     

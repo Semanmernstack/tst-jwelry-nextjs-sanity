@@ -24,13 +24,13 @@ async function Testi() {
             {datas.map((t: any) => (
                 <div  className=' borde-2 flex bg-slate-500 hover:bg-purple-600 flex-col shadow-lg gap-3 p-2 rounded-md transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  duration-300  ' key={t._id}>
                     <div className='text-center flex items-center justify-center'>
-                     <img
-                        src={urlFor(t.piccc).width(200).height(200).url()}
+                     <Image
+                        src={urlFor(t.piccc).url()}
                         alt='test image'
-                        className='object-cover'
-                     
+                        width={200}
+                        height={200}
+                        className='rounded-full shadow-md  object-cover '
                     />
-                    
                     </div>
                    
                     <div className='gap-2 text-white'>

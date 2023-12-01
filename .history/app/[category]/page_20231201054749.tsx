@@ -1,5 +1,5 @@
 import React from 'react'
-import { client, urlFor } from '../lib/sanity'
+import { client } from '../lib/sanity'
 import { Cat } from '../type'
 import Image from 'next/image'
 import Link from 'next/link'
@@ -31,11 +31,12 @@ async function page({params}: {params: {category: string}}) {
               <div >
                 {p.images && 
 
-                    <img
-                    src={urlFor(p.images).width(200).height(200).url()}
+                    <Image
+                    src={p.images}
                     alt="pic"
-                    
-                    
+                    width={150}
+                    height={150}
+                    className='flex bg-transparent object-cover'
                     />
 
                 }
