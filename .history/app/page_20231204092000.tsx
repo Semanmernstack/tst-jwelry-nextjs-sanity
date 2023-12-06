@@ -6,8 +6,6 @@ import Product from './Components/Product'
 import Testi from './Components/Testi'
 import Newslet from './Components/Newslet'
 import Top from './Components/Top'
-import Weekly from './Components/Weekly'
-
 
 
 export default function Home() {
@@ -19,7 +17,6 @@ export default function Home() {
       <Top/>
      
       <Product/>
-      <Weekly/>
       <Testi/>
       <Newslet/>
 

@@ -4,10 +4,6 @@ import { urlFor } from "../lib/sanity"
 import { useState } from "react"
 
 function ImageComp({images}: any) {
-    const [imageState, setImageState] = useState(images[0])
-    const handleClick = (ima: any) => {
-        setImageState(ima)
-    }
    
   return (
     <div className=" flex flex-col bg-transparent">
@@ -15,9 +11,8 @@ function ImageComp({images}: any) {
             {images?.map((ima: any, index: any) => (
                 <div className=" items-center justify-center hover:bg-pink-200  boder shadow-lg" key={index}>
                     <Image
-                        onClick={()=> handleClick(ima)}
                         
-                         src={urlFor(ima).url()}
+                         src={urlFor(images).url()}
                          alt="sec"
                          width={150}
                          height={150}
@@ -30,8 +25,8 @@ function ImageComp({images}: any) {
             ))}
         </div>
         <div className="shadow-md">
-            <Image 
-                src={urlFor(imageState).url()}
+            <img 
+                src={urlFor(images).url()}
                 alt="sec"
                 width={300}
                 height={300}
@@ -40,7 +35,6 @@ function ImageComp({images}: any) {
            />
             
         </div>
-       
         
     </div>
   )

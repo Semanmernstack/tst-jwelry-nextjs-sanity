@@ -15,7 +15,7 @@ function Navbar() {
           <div className='flex h-[100px] sm:[130px]  items-center bg-purple-950 animate-accordion-down bg:from-slate-800 bg:via-black bg:to-zinc-900 justify-between  p-2 sm:p-4     hover:shadow-2xl  '>
             
               <Link   href={'/'} className='flex  brightness-75  transition ease-in delay-150  hover:-translate-y-1 hover:scale-90 duration-300    '>
-                 <img
+                 <Image
                   src='/tstlogo.jpg'
                   alt='logoo'
                   width={70}

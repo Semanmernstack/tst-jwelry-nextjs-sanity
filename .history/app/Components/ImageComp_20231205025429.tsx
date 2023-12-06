@@ -8,15 +8,13 @@ function ImageComp({images}: any) {
     const handleClick = (ima: any) => {
         setImageState(ima)
     }
-   
   return (
     <div className=" flex flex-col bg-transparent">
         <div className="p-5 grid grid-cols-3  gap-2  sm:items-center md:justify-center ">
             {images?.map((ima: any, index: any) => (
                 <div className=" items-center justify-center hover:bg-pink-200  boder shadow-lg" key={index}>
                     <Image
-                        onClick={()=> handleClick(ima)}
-                        
+                        onClick={handleClick}
                          src={urlFor(ima).url()}
                          alt="sec"
                          width={150}
@@ -30,7 +28,7 @@ function ImageComp({images}: any) {
             ))}
         </div>
         <div className="shadow-md">
-            <Image 
+            <img 
                 src={urlFor(imageState).url()}
                 alt="sec"
                 width={300}
@@ -40,7 +38,6 @@ function ImageComp({images}: any) {
            />
             
         </div>
-       
         
     </div>
   )

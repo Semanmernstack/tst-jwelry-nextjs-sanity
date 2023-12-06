@@ -41,25 +41,25 @@ const settings = {
     <div className='w-full'> 
 
         <Carousel className='w-full' {...settings}>
-                <div   className='w-full object-cover'    >
-                    <Image width={100} height={100} src={one} alt='picone'   />
+                <div>
+                    <Image className='w-full object-cover ' src="/one" alt='picone'  />
                     
                 </div>
-                <div   className='w-full object-cover'  >
-                    <Image width={100} height={100} src={four} alt='pictwo'   />
+                <div>
+                    <img className='w-full object-cover   ' src="/four" alt='pictwo'  />
                     
                 </div>
-                <div  className='w-full object-cover'>
-                    <Image width={100} height={100}   src={three} alt='picthree ' />
+                <div>
+                    <img className='w-full object-cover   ' src="/three" alt='picthree '  />
                   
                 </div>
                 
-                <div className='w-full object-cover'>
-                    <Image  src={five} alt='picfoo' width={100} height={100 } />
+                <div>
+                    <img className='w-full object-cover  ' src="/five" alt='picfoo' />
                     
                 </div>
-                <div  className='w-full object-cover'  >
-                    <Image width={100} height={100}  src={two} alt='picfiv'  />
+                <div>
+                    <img className='w-full object-cover   fill' src="/two" alt='picfiv'  />
                    
                 </div>
 
