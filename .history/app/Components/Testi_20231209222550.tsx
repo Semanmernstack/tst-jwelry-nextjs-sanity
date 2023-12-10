@@ -3,7 +3,7 @@ import { client, urlFor } from '../lib/sanity'
 import Image from 'next/image'
 
 async function getTest() {
-    const query = `*[_type == 'testimonia'] [0...5] {
+    const query = `*[_type == 'testimonia'] [0...6] {
         _id,
           name,
           piccc,

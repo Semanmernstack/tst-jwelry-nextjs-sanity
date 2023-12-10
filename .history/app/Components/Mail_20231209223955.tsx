@@ -36,8 +36,8 @@ function Mail() {
     
   return (
     <div className='flex flex-col items-center w-full  '>
-        <form className="flex  flex-col p-3 w-full " onSubmit={handleSubmit}>
-            <div className='gap-2 flex  flex-col md:flex-row items-center'>
+        <form className="flex  flex-col p-3 " onSubmit={handleSubmit}>
+            <div className='gap-2 flex w-[70%] flex-col md:flex-row items-center'>
                 <input type="email"
                     placeholder='Subscribe for news letter'
                     value={input}
@@ -47,7 +47,7 @@ function Mail() {
                     className="outline-none flex-1 w-full text-white bg-red-700 border-2 h-10 md:h-8   p-2 rounded-lg  border-none from-fuchsia-400 "
 
                  />
-                 <button className="text-sm  text-center justify-center flex cursor-pointer h-9   text-white bg-zinc-500 p-2  sm:text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  duration-300  rounded-xl md:rounded-2xl " type='submit' disabled={!input}    >
+                 <button className="text-xs  text-center justify-center flex cursor-pointer h-9   text-white bg-zinc-500 p-2  sm:text-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-95  duration-300  rounded-xl md:rounded-2xl " type='submit' disabled={!input}    >
                     Subscribe
                  </button>
             </div>
